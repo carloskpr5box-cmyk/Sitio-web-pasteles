@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    background-color:rgba(43,31,25,255)
+}
+.header {
+    background-color: antiquewhite;
+    margin-top: 0%;
+    width:100%;
+    justify-content:space-between;
+
+
+}
+.flex_box{
+    display:flex
+}
+.block{
+    display:block
+}
+.redes{
+    background-color:rgba(59,44,37,255);
+    border-color: rgba(212,160,23,255);
+    width:90%;
+    border-radius:0px;
+
+    
+
+}
+.Redes_sociales{
+    margin-top:10px
+}
+
+.link{
+    display:block;
+    text-align: center;
+    
+}
+.item--link{
+list-style:none;
+
+}
+.link{
+    text-decoration:none;
+    color:rgb(103, 59, 7);
+    margin-right:5px;
+    font-size:18px
+}
+.Titulo{
+font-family:cursi;
+}
+
+
+.link{
+    font-size:20px;
+}
+.Subtitulo{
+font-size:14px;
+justify-content: center;
+color:beige;
+margin-bottom: 30px;
+margin-left: 8px;
+}
+

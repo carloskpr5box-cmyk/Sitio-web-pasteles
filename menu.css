@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    background-color:rgb(242, 242, 208);
+}
+.flexbox{
+    display:flex
+}
+.Titulo{
+    
+    color:rgb(94, 42, 4);
+    font-size:18px;
+    margin-left: 8px;
+    text-align: center;
+    font-family:cursi
+}
+.content{
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 190dvh;
+}
+
+.header{
+justify-content: space-between;
+display: flex;
+text-align:center
+
+    
+}
+
+.imagen_pastel{
+    width: 100%;
+    
+
+}
+.animacion_galleria{
+    animation-name:Galeria_pasteles;
+    animation-delay: -8s;
+    animation-timeline: view();
+
+}
+.nav_link{
+    text-decoration:none;
+    margin-right: 4px;
+    color:rgb(58, 33, 2)
+}
+.nav_list{
+    
+    list-style: none;
+    color:rgb(122, 122, 252);
+    justify-content:end;
+    display: flex;
+    font-size:15px;
+    margin-right:5px
+}
+a:hover{
+    color:rgb(246, 112, 112)
+}
+@keyframes Galeria_pasteles{
+    from{
+        opacity: 0;
+        scale: 50%;
+    }
+    
+    to{
+opacity:1;
+scale: 100%;
+    }}
+
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(250, 158, 38);
+}
+
+
+.caja{
+    text-align: left;
+    justify-content: center;
+    box-shadow: 0,03,30px rgb(156, 75, 16);
+}
+.caja--imagenes{
+justify-content: center;
+display: flex;
+margin: 50px;
+
+}
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+

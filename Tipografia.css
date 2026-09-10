@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"LucidaCaliB" ;
+    src: url("Tipografia/LucidaUnicodeCalligraphyBold.ttf") format("TrueType")
+}
+@font-face {
+    font-family:"FrancesSS";
+    src:url("Tipografia/static/Fraunces_72pt_SuperSoft-LightItalic.ttf") format("TrueType")
+}
+@font-face{
+    font-family:"cursi";
+    src:url("Tipografia/GreatVibes-Regular.ttf") format("TrueType")
+}

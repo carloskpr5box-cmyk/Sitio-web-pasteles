@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    
+}
+.Titulo{
+    font-family:cursi;
+
+}
+.menu1{
+    color:rgb(72, 41, 2)
+}
+.flexbox{
+    display: flex;
+}
+.galleta_vainilla{
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+
+.footer{
+    
+    background-color: rgb(212, 152, 73);
+    margin-top: 10px;
+}
+
+.box_img_galletas{
+    justify-content:center;
+    margin:30px 20px;
+
+}
+.Imagenes_galletas{
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    
+
+}
+.Animacion_galeria_galletas{
+    animation-name: Galeria_Galletas;
+    animation-timeline:view();
+}
+
+@keyframes Galeria_Galletas {
+from{
+    opacity: 0;
+    scale:30%
+}
+to{
+    opacity: 1;
+    scale: 100%;
+}
+}
+
+header{
+background-color: rgb(255, 228, 196);
+margin-top: 0%;
+display:flex;
+width: 100%;
+justify-content: space-between;
+
+}
+.list_item{
+    text-align: right;
+}
+
+
+.menu{
+    display:flex
+}
+
+@media screen and (min-width:360px){
+.Titulo{font-size:30px;}
+
+}
+li,a{
+    text-decoration:none;
+    color:rgb(250, 121, 121);
+    margin-right:10px;
+    font-size: 15px;
+    justify-content: end;
+}
+
+.menu ul{
+    display:flex;
+    list-style:none
+}
+.menu1:hover{
+    color:rgb(170, 72, 3)
+}
+
+
