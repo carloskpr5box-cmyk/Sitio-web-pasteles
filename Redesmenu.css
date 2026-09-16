@@ -46,6 +46,7 @@ list-style:none;
 }
 .Titulo{
 font-family:cursi;
+
 }
 
 
@@ -59,4 +60,16 @@ color:beige;
 margin-bottom: 30px;
 margin-left: 8px;
 }
+@media screen and (min-width:300px){
+    .Titulo{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 400px){
+    .Titulo{
+        font-size:25px;
+    }
+}
+    
+
 

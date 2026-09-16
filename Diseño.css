@@ -2,45 +2,93 @@ html, body{
     background-color: rgb(255, 228, 196);
     margin: 0px;
 }
+@keyframes Animation_inicio {
+    from{
+        scale:50%
+    }
+    to{
+        scale:100%
+    }
+}
 
-.video_menu{
-    bottom: 1200px;
+.caja{
+    width: 90px;
+    height: 130px;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+
+
 }
-.Caja_texto_video{
-    margin-top: 3px;
-    width:20px
+.Item_text{
+    margin-left: 7px;
+    
+
 }
-.link_menu{
+.animacion_inicio{
+    animation-name: Animation_inicio;
+    animation-duration: 2s;
+}
+
+.postres{
+    transition-property:color;
+    transition-duration:1ms;
+    animation-name: Animation_inicio;
+    animation-duration: 2s;
+}
+.pasteles{
+    background:linear-gradient(rgba(254, 249, 249,0.2)),linear-gradient(rgba(255, 254, 254, 0.2)),url("Imagenes/Pastel_zombi_menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content:center
+}
+
+.Galletas{
+    text-decoration: none;
+    color:black
+    
+}
+.postres:hover{
+scale:110%;
+color:beige
+}
+    
+.Text_menu_imagenes{
+    text-align:center;
+    text-decoration:none;
+    color:rgb(29, 0, 0)
+
+}
+.Caja_galletas{
+    background:linear-gradient(rgba(254, 249, 249,0.2)),linear-gradient(rgba(255, 254, 254, 0.2)),url("Galletas/Galleta_mentiroso_menu.jpeg");
+    background-position: center;
+    width:90px;
+    text-align: center;
+    align-content: center;
+
+}
+.Redes{
+    width:60px;
+    padding: 5px;
+    background-color: #9C5810;
+    align-items: center;
+    
+}
+.Texto_link_redes{
+    text-decoration:none;
+    color: azure;
     text-align: center;
 }
+
 .footer_titulo{
     display: inline-block;
+    color: #fbf6f3;
 }
-video{
-    width:120px;
-    margin-left:50px;
-}
-.box_link{
-    background-color:rgb(237, 151, 90);
-    width:65px;
-    border-radius:15px;
-    justify-content:center;
-    margin-left:10px;
-    margin-top: -10px;
-
-
-}
-.box_link:hover{
-background-color: rgb(65, 36, 1);
-}
-
-
-
-
-
-
-.video_pasteles{
-    position:relative
+.Imagenes_menu{
+    width:90%;
+    display: flex;
+    margin: auto;
+    margin-top: 4.5dvh;
 }
 
 .link_galerias_contacto{
@@ -65,7 +113,8 @@ background-color: rgb(65, 36, 1);
 .box_item{
     width:90%;
     box-sizing:border-box;
-    margin-left:10px
+    margin-left:10px;
+
 }
 .flexbox{
     display:flex
@@ -82,13 +131,15 @@ background-color: rgb(65, 36, 1);
 
 
 
+
 .flexbox{
 display: flex;
 }
 
 .Titulo{
     font-family:cursi;
-    color:rgb(52, 29, 1)
+    color:#fbf6f3;
+    letter-spacing: 1.5px;
 }
 .list_item{
     text-decoration:none;
@@ -97,30 +148,40 @@ display: flex;
 .link_item{
     margin:0%;
     margin-left:10px;
-    color:rgb(52, 27, 1)
+    color:#fbf6f3
+
+}
+.H1{
+    font-size: 12px;
+    margin-top:0px;
+    margin-left: 7px ;
 
 }
 .content{
     display:grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 86dvh;
+    min-height: 12dvh;
+    
 }
 
 .footer{
-    background-color:rgb(255, 228, 196);
+    background-color:#472F19;
     width:100%;
 }
 header{
     justify-content:space-between;
     display: flex;
-    background-color: rgb(255, 228, 196);
+    background-color: #472F19;
     box-shadow: 0 0 8px 0 chocolate;
+    
+
 
 }
 .item_nav ul{
     display:flex
 }
 @media screen and (min-width:340px)  {
+
 .Titulo{
 font-size: 20px; 
 width: 100%;
@@ -144,10 +205,10 @@ width: 100%;
 .link_menu{
     color:rgb(0, 0, 0)
 }
-.box_link{
-width:69px;
+.pasteles{
+width:89px;
 text-align: center;
-margin-bottom: 35px;
+background-color: blue;
 }
 
 .box_video{
@@ -157,6 +218,14 @@ flex-direction:column
 .box_video{
     display: flex;
     overflow:hidden;
+}
+.box_item{
+    width:300px;
+    
+}
+.box_item_postres{
+    background-color: rgb(27, 16, 1);
+    width:600px;
 }
 
 .video_menu{
@@ -168,7 +237,7 @@ flex-direction:column
 .Content{
     display:grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 99dvh;
+    min-height: 100dvh;
 }
 
 
@@ -177,17 +246,24 @@ flex-direction:column
 
 
 
-@media screen and (min-width:400px){
+@media screen and (min-width:390px){
 
 .item-text{
     text-align:justify ;
     color:rgb(0,0,0);
     
 }
+main{
+    margin-left: 15px;
+}
 
 
 .Content{
     min-height: 70dvh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 86dvh;
+}
 }
 
 .menu{
@@ -201,20 +277,26 @@ flex-direction:column
     color:red;
     text-align:center
 }
+
+
+
+
+@media screen and (min-width:400px){
+    .Content{
+    min-height: 77dvh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+    
+}
+@media screen and (min-width:410px){
+    .Content{
+    min-height: 77dvh;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+    
 }
 
-@media screen and (min-width:440px){
-    .Content{
-        min-height: 5dvh;
-    }
-}
-@media screen and (min-width:412px){
-    .Content{
-        min-height: 80dvh;
-    }
-}
-@media screen and (min-width:1000px)  {
-    .Content{
-        min-height: 52dvh;
-    }
-}
