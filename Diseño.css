@@ -22,12 +22,17 @@ html, body{
 }
 .Item_text{
     margin-left: 7px;
+    justify-content: center;
     
 
 }
 .animacion_inicio{
     animation-name: Animation_inicio;
     animation-duration: 2s;
+    animation-delay: -1s;
+}
+.Content{
+    min-width: 100vh;
 }
 
 .postres{
@@ -157,12 +162,6 @@ display: flex;
     margin-left: 7px ;
 
 }
-.content{
-    display:grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 12dvh;
-    
-}
 
 .footer{
     background-color:#472F19;
@@ -180,7 +179,7 @@ header{
 .item_nav ul{
     display:flex
 }
-@media screen and (min-width:340px)  {
+@media screen and (min-width:340px) and (max-width:360px) {
 
 .Titulo{
 font-size: 20px; 
@@ -235,9 +234,8 @@ flex-direction:column
 }
 
 .Content{
-    display:grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100dvh;
+
+    min-height: 92dvh;
 }
 
 
@@ -281,7 +279,7 @@ main{
 
 
 
-@media screen and (min-width:400px){
+@media screen and (min-width:400px) and (max-width:410px){
     .Content{
     min-height: 77dvh;
     display:grid;
@@ -290,13 +288,27 @@ main{
 }
     
 }
-@media screen and (min-width:410px){
+@media screen and (min-width:410px) and (max-width:420px){
+.Content{
+    min-height: 79dvh;
+} 
+}
+@media  screen and (min-width:440px) and (max-width:768px){
     .Content{
     min-height: 77dvh;
+} 
+}
+@media  screen and (min-width:427px) and (max-width:428px){
+.Content{
+    min-height: 100dvh;
+}
+}
+.Content{
+    min-height: 70dvh;
     display:grid;
     grid-template-rows: auto 1fr auto;
-    
-}
-    
-}
+    min-height: 86dvh;
+}.Content{
 
+    min-height: 92dvh;
+}
