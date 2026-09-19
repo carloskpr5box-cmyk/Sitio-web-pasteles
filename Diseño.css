@@ -77,7 +77,7 @@ header {
 }
 
 .Titulo {
-  font-family: cursive; /* antes decía "cursi", que no es una fuente válida y se ignoraba */
+  font-family: cursi; /* antes decía "cursi", que no es una fuente válida y se ignoraba */
   color: #fbf6f3;
   letter-spacing: 1.5px;
   margin: 0;
