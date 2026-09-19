@@ -279,36 +279,3 @@ main{
 
 
 
-@media screen and (min-width:400px) and (max-width:410px){
-    .Content{
-    min-height: 77dvh;
-    display:grid;
-    grid-template-rows: auto 1fr auto;
-    
-}
-    
-}
-@media screen and (min-width:410px) and (max-width:420px){
-.Content{
-    min-height: 79dvh;
-} 
-}
-@media  screen and (min-width:440px) and (max-width:768px){
-    .Content{
-    min-height: 77dvh;
-} 
-}
-@media  screen and (min-width:427px) and (max-width:428px){
-.Content{
-    min-height: 100dvh;
-}
-}
-.Content{
-    min-height: 70dvh;
-    display:grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 86dvh;
-}.Content{
-
-    min-height: 92dvh;
-}
