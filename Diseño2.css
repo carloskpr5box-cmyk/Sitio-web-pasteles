@@ -15,6 +15,8 @@ html,
 body {
   background-color: rgb(255, 228, 196);
   margin: 0px;
+  box-sizing: border-box;
+  
 }
 
 /* --- Layout general (header / contenido) ---
