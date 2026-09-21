@@ -99,17 +99,24 @@ header {
   font-size: 18px;
   margin-top: 0px;
   margin-left: 7px;
+  text-align: center;
 }
 
 .Subtitulo {
   color: rgb(43, 18, 1);
   font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
 }
+
 
 .Texto_inicio {
   color: rgb(86, 37, 2);
 }
-
+.centrar_texto{
+  justify-content: center;
+  align-content: center;
+}
 .Item_text {
   margin-left: 7px;
   justify-content: center;
@@ -119,6 +126,10 @@ header {
   margin-left: 20px;
   font-size: 28px;
 }
+.text_redes{
+  color:aliceblue;
+  text-decoration:none
+}
 
 .Texto_menu_inicio {
   margin-left: 10px;
@@ -127,9 +138,12 @@ header {
 
 .box_item {
   width: 100%;
-  max-width: 300px;
   box-sizing: border-box;
   margin-left: 10px;
+  justify-items: center;
+  margin:auto;
+
+  
 }
 
 /* --- Redes (botón "Síguenos") --- */
@@ -139,6 +153,7 @@ header {
   background-color: #9c5810;
   align-items: center;
   border-radius: 4px;
+  margin: auto;
 }
 
 .Texto_link_redes {
